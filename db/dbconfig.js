@@ -3,5 +3,5 @@ module.exports = {
     user : 'admin',
     password : '12341234',
     port: "3306",
-    database: "introduce_react_interview",
+    database: "react_suppose",
 }

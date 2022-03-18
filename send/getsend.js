@@ -18,7 +18,7 @@ routes.post('/post',(req,res)=>{
 })
 routes.get('/awssql',(req,res)=>{
     connection.query(
-        'SELECT * FROM introduce_react_interview.Users',
+        'SELECT * FROM react_suppose.suppose',
         (error,result)=>{
             if(error)throw error;
             res.send(result)
